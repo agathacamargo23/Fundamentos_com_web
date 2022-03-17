@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Patrick+Hand&family=Source+Sans+Pro&display=swap');
+
+/*
+    Style --> index
+
+*/
+body{
+    background: linear-gradient(cyan,blue,violet);
+}
+
+* {
+
+    
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+#menu ul li {       /* linha*/
+    
+    display: inline;
+    font-size:  20px;
+    font-weight: 600;
+    padding: 10px 10%;
+    margin-left: 5em;
+}
+
+#menu ul li a {
+    background:yellow;
+    padding: 20px 30px;
+    border-radius: 20px;
+
+    
+}
+
+#menu ul li a:hover{
+    color: aquamarine;
+    padding: 30px;
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+#titulo{
+    color: blue;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#titulo:hover { /* estiliza quando passa o cursor do mouse*/
+    color: yellow;
+   
+}
+
+#corpo h1 a{
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+.video1{
+    color: black;
+    text-align:justify;
+    
+}
+
+.assistir{
+    color: rgb(38, 20, 56);
+    text-align: justify;
+    font-size: 25px;
+    margin: 0px 2em;
+    width: 60%;
+}
+
+.centralizar{ /* o ponto e usado para chamar uma classe que e determinada*/
+    color: #101010;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    
+}
+
+
+.container img {
+    width: 50%;
+    height: 30em;
+    padding-right: 50px;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: start;
+}
+
+#titulo3{
+    text-align: start;
+    margin-left: 10%;
+    font-size: 3em;
+    color: rgb(36, 36, 128);
+    
+}
+
+#titulo3.hover{
+    color: yellow;
+}
+
+.tamanho{
+    margin-top: 50px;
+}
+
+/*
+   Estilos
+
+*/
