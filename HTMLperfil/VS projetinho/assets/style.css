@@ -5,48 +5,43 @@
     Style --> index
 
 */
-body{
-    background: linear-gradient(cyan,blue,violet);
+
+body {
+    background: linear-gradient(cyan, blue, violet);
 }
 
 * {
-
-    
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-
-
-#menu ul li {       /* linha*/
-    
+#menu ul li {
+    /* linha*/
     display: inline;
-    font-size:  20px;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px 10%;
     margin-left: 5em;
 }
 
 #menu ul li a {
-    background:yellow;
+    background: yellow;
     padding: 20px 30px;
     border-radius: 20px;
-
-    
 }
 
-#menu ul li a:hover{
+#menu ul li a:hover {
     color: aquamarine;
     padding: 30px;
     background-color: crimson;
     border-radius: 20px;
 }
 
-#titulo{
+#titulo {
     color: blue;
     text-align: center;
     font-size: 65px;
@@ -54,29 +49,25 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#titulo:hover { /* estiliza quando passa o cursor do mouse*/
+#titulo:hover {
+    /* estiliza quando passa o cursor do mouse*/
     color: yellow;
-   
 }
 
-#corpo h1 a{
+#corpo h1 a {
     color: black;
     text-align: center;
     font-size: 10px;
     font-weight: 100;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
-
-
-.video1{
+.video1 {
     color: black;
-    text-align:justify;
-    
+    text-align: justify;
 }
 
-.assistir{
+.assistir {
     color: rgb(38, 20, 56);
     text-align: justify;
     font-size: 25px;
@@ -84,23 +75,20 @@ body{
     width: 60%;
 }
 
-.centralizar{ /* o ponto e usado para chamar uma classe que e determinada*/
+.centralizar {
+    /* o ponto e usado para chamar uma classe que e determinada*/
     color: #101010;
     text-align: center;
     align-items: center;
-    
 }
-
 
 .container {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    text-align:start;
-    
+    text-align: start;
 }
-
 
 .container img {
     width: 50%;
@@ -108,26 +96,26 @@ body{
     padding-right: 50px;
 }
 
-h2{
+h2 {
     margin-top: 50px;
     text-align: start;
 }
 
-#titulo3{
+#titulo3 {
     text-align: start;
     margin-left: 10%;
     font-size: 3em;
     color: rgb(36, 36, 128);
-    
 }
 
-#titulo3.hover{
+#titulo3.hover {
     color: yellow;
 }
 
-.tamanho{
+.tamanho {
     margin-top: 50px;
 }
+
 
 /*
    Estilos
